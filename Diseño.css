@@ -1,0 +1,212 @@
+/*=======NAVBAR=======*/
+
+.Logo{
+  width: 70px;
+  height: auto;
+  background-color: whitesmoke;
+  position: relative;
+  top: 15px;
+  left: 8%;
+  border-radius: 8px;
+}
+
+nav{
+    background-color: whitesmoke;
+    background-size: cover;
+    height: 100px;
+    border-radius: 2%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.busqueda{
+    margin: 0.5px;
+    padding: 0.5PX;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+    left: 55%;
+    top: 10px;
+    right: 5px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0 10px;
+    padding: 5px;
+    border: 10px
+
+}
+
+*{
+    background-color: pink;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+/*======HERO======*/
+
+.image img{
+   width: 340px;
+   height: 390px;
+   display: flex;
+   border-radius: 15px;
+   padding: 20px;
+   background: lightgrey;
+}
+
+.info{
+    width: 400px;
+    gap: 5px;
+    background: lightgrey;
+}
+
+.info p{
+    width: 400px;
+    font-size: 15px;
+    background: lightgrey;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91%;
+    color:gray;
+    gap: 100px;
+    padding: 60px;
+    background: lightgrey;
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    background: lightgrey;
+    font-weight: 800;
+}
+
+.info p > span{
+    background: lightgrey;
+}
+
+.btc{
+    background: lightgrey;
+}
+
+.btc a{
+    background: grey;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.extra-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91%;
+    color:gray;
+    gap: 100px;
+    padding: 60px;
+    background: lightgrey;
+}
+
+.extra-info p{
+    background: lightgrey;
+    font-size: 14px;
+    width: 70%;
+    color:darkslategray;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+  }
+  
+
+cards{
+    display: flex;
+
+}
+
+.elemento {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+  }
+  
+  .elemento:nth-child(1) {
+      background: lightgrey;
+      font-size: 15px;
+  }
+  .elemento:nth-child(1) p{
+    background: lightgrey;
+    width: 30%;
+}
+
+  
+  .elemento:nth-child(2) {
+      background: lightgrey;
+      font-size: 15px;
+  }
+  .elemento:nth-child(2) p{
+    background: lightgrey;
+    width: 30%;
+}
+  .elemento:nth-child(3){
+    background: lightgrey;
+    font-size: 15px;
+    
+  }
+  .elemento:nth-child(3) p{
+    background: lightgrey;
+    width: 30%;
+    
+  }
+
+  footer,h2,h3, ul, li, p{
+      background: lightgrey;
+  }
+
+  h2{
+      padding: 0;
+      border: 0;
+  }
+
+  .contacto {
+    margin: 0;
+    padding: 0;
+  }
+  .contacto-titulo, .contacto-lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  footer {
+    background-color: lightgrey;
+  }
+  
+  .contacto {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contacto-titulo, .contacto-subtitulo, .contacto-lista {
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+      font-size: 13px;
+  }
